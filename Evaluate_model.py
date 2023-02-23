@@ -12,7 +12,7 @@ os.environ[
 
 def get_recall(df_prediction):
     '''
-    Estimation du recall : Par label combien ont ete trouve / combien sont non trouve
+    Estimation du recall : Par label combien ont ete trouve / combien sont non trouves
     :param df_prediction:
     :return:
     '''
@@ -32,7 +32,7 @@ def get_recall(df_prediction):
 
 def get_precision(df_prediction):
     '''
-    Estimation du recall : Par label combien ont ete trouve et combien sont non trouve
+    Estimation de la precision : Par label combien ont ete predit justement /  combien ont ete predit
     :param df_prediction:
     :return:
     '''
