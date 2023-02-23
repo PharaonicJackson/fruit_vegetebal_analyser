@@ -8,6 +8,10 @@ import math
 import shutil
 import numpy as np
 
+'''
+L'objectif de ce fichier est de calibrer au mieux les parametres de mon modele.
+'''
+
 os.environ[
     "KMP_DUPLICATE_LIB_OK"] = "TRUE"  # pour resoudre ce message d'erreur OMP: Error #15: Initializing libiomp5, but found libiomp5md.dll already initialized.
 
