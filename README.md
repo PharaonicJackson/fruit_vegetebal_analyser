@@ -21,8 +21,8 @@ https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition
 ## Running Tests
 
 To run tests, run the following script : test_the_model.py.
-Select your folder in argument with inside the photos to guess.
-It will be displayed the list of fruits or vegetebals in the folder with the percentage of certainty.
+Select the path of the photo to guess.
+In return, will be displayed the fruit or vegetebal with the percentage of certainty.
 
 
 ## Environnment
