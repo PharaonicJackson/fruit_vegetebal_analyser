@@ -35,16 +35,16 @@ def check_argument_carry_on_learning(**kwargs):
 
 def split_label_title(**kwargs):
     '''
-    Afin de realiser plusieurs entrainement qui entraine potentiellement plusieurs versions du meme parametres
+    Afin de realiser plusieurs entrainements qui entrainent potentiellement plusieurs versions du meme parametres
     Je separe chaque parametre dans 2 dictionnaires :
         - (dict) dict_title
         - (dict) dict_label
 
-    dict_label inclus les listes de parametres qui existe en differentes versions.
+    dict_label inclus les listes de parametres qui existent en differentes versions.
     Un apprentissage unique sera realise pour chaqu'une des combinaisons de ces parametres.
     Ces parametres apparaitront dans les labels du graphique final
 
-    dict_titre inclus les listes de parametres qui existe en une unique version.
+    dict_titre inclus les listes de parametres qui existent en une unique version.
     Ces parametres apparaitront dans le titre du graphique final
 
     Si dict_label est vide car uniquement des parametres uniques fct_model sera integre aux labels
